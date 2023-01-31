@@ -36,7 +36,7 @@ jobs:
           committer_token: ${{ secrets.PERSONAL_TOKEN }}
 
           # Options
-          user: albertollamaso
+          user: Ducretje
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -63,7 +63,7 @@ jobs:
           committer_token: ${{ secrets.PERSONAL_TOKEN }}
 
           # Options
-          user: albertollamaso
+          user: Ducretje
           template: classic
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -80,7 +80,7 @@ jobs:
           committer_token: ${{ secrets.PERSONAL_TOKEN }}
 
           # Options
-          user: albertollamaso
+          user: Ducretje
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -96,7 +96,8 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.PERSONAL_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
-          user: albertollamaso
+          
+          user: Ducretje
           base: ""
           template: classic
           plugin_habits: yes
@@ -117,7 +118,7 @@ jobs:
           committer_token: ${{ secrets.PERSONAL_TOKEN }}
 
           # Options
-          user: albertollamaso
+          user: Ducretje
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -137,7 +138,7 @@ jobs:
           committer_token: ${{ secrets.PERSONAL_TOKEN }}
 
           # Options
-          user: albertollamaso
+          user: Ducretje
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
