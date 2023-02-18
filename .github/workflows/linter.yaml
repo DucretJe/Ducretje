@@ -25,3 +25,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # limit to new and updated files
           VALIDATE_ALL_CODEBASE: false
+          JSCPD_CONFIG_FILE: .jscpd.json
